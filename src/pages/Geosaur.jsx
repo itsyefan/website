@@ -1,7 +1,6 @@
-import React from 'react';
-import Map from '../assets/Map.jpg'
+import React from 'react'
 
-export default function Trackr() {
+export default function Geosaur() {
   return (
     <div className='h-screen w-screen flex flex-row bg-blue text-white'>
       <div className='basis-7/12 flex flex-col justify-center items-center'>
