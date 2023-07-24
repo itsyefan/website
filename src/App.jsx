@@ -21,7 +21,7 @@ function App() {
         <About/>
       </div>
       <div className="snap-start">
-      <Carousel emulateTouch={true} autoPlay={true} interval={5000} infiniteLoop={true} showArrows={false} showStatus={false}>
+      <Carousel emulateTouch={true} autoPlay={true} interval={5000} infiniteLoop={true} showArrows={false} showStatus={false} showThumbs={false}>
           <Trackr/>
           <Geosaur/>
           <Kemukupu/>
