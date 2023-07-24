@@ -15,7 +15,7 @@ export default function AboutContent() {
           Auckland.<br></br> <br></br>
           Outside of work, I enjoy all things fitness. Namely football, running,
           bouldering, table tennis, badminton and the gym.<br></br> <br></br>
-          My other passions and hobbies include video games, music and puzzles.
+          My other passions and hobbies include video games, music, puzzles and mechanical keyboards.
         </p>
       </div>
     </div>
