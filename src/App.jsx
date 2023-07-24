@@ -7,6 +7,9 @@ import Geosaur from './pages/Geosaur'
 import Kemukupu from './pages/Kemukupu'
 import './App.css'
 
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
+
 function App() {
 
   return (
@@ -17,16 +20,12 @@ function App() {
       <div className="snap-start">
         <About/>
       </div>
-      <div className="snap-start flex flex-row">
-        <div>
+      <div className="snap-start">
+      <Carousel emulateTouch={true} autoPlay={true} interval={5000} infiniteLoop={true} showArrows={false} showStatus={false}>
           <Trackr/>
-        </div>
-        <div>
           <Geosaur/>
-        </div>
-        <div>
           <Kemukupu/>
-        </div>
+      </Carousel>
       </div>
     </div>
   )

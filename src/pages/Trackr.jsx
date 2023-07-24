@@ -12,7 +12,10 @@ export default function Trackr() {
         </div>
       </div>
       <div className='flex flex-row basis-5/12 justify-center items-center'>
-        <img src={Map} className='h-5/6'/>
+        <div className='h-5/6'>
+          <img src={Map} className='h-5/6'/>
+        </div>
+        
       </div>
     </div>
   )
