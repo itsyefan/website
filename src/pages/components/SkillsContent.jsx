@@ -14,7 +14,7 @@ export default function SkillsContent() {
   return (
     <div className="bg-right basis-8/12 flex flex-row justify-center">
       <div className="flex flex-col text-white w-4/6 h-full justify-center items-left">
-        <h1 className="text-8xl font-bold">My Skills</h1>
+        <h1 className="text-7xl font-bold">My Skills</h1>
         <div className="flex flex-row justify-between py-6">
           <Tech image={java} name="Java" />
           <Tech image={js} name="JavaScript" />
