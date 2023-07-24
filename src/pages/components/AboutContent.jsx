@@ -1,9 +1,11 @@
 import React from "react";
 import profile from '../../assets/profile.jpg'
+import Fade from 'react-reveal/Fade';
 
 export default function AboutContent() {
   return (
     <div className="bg-left basis-4/12 flex flex-col items-center justify-center">
+      <Fade left>
       <div className="w-44 h-44 bg-white rounded-full overflow-hidden drop-shadow-2xl">
         <img src={profile} />
       </div>
@@ -18,6 +20,7 @@ export default function AboutContent() {
           My other passions and hobbies include video games, music, puzzles and mechanical keyboards.
         </p>
       </div>
+      </Fade>
     </div>
   );
 }

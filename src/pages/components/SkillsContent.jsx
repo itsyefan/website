@@ -9,10 +9,12 @@ import git from "../../assets/git.svg";
 import cpp from "../../assets/cpp.svg";
 import spring from "../../assets/spring.svg";
 import docker from "../../assets/docker.svg";
+import Fade from 'react-reveal/Fade';
 
 export default function SkillsContent() {
   return (
     <div className="bg-right basis-8/12 flex flex-row justify-center">
+      <Fade right>
       <div className="flex flex-col text-white w-4/6 h-full justify-center items-left">
         <h1 className="text-7xl font-bold">My Skills</h1>
         <div className="flex flex-row justify-between py-6">
@@ -29,6 +31,7 @@ export default function SkillsContent() {
           <SmallTech image={docker} name="Docker" />
         </div>
       </div>
+      </Fade>
     </div>
   );
 }
