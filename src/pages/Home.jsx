@@ -9,7 +9,6 @@ export default function Home() {
   return (
     <div className='h-screen overflow-hidden relative flex justify-center items-center'>
         <img src={background} className='scale-125 -mt-48 absolute'/>
-        <Fade>
         <div className='absolute flex-col mt-36'>
           <div className='flex-col'>
               <h1 className='text-white text-8xl font-bold text-center'>HELLO!</h1>
@@ -20,8 +19,7 @@ export default function Home() {
             <a href="https://github.com/itsyefan" target="_blank" rel="noopener"><img src={github} className='w-20 transition duration-200 hover:scale-110'/></a>
             <a href="https://leetcode.com/itsyefan/" target="_blank" rel="noopener"><img src={leetcode} className='w-20 transition duration-200 hover:scale-110'/></a>
           </div>
-        </div>
-        </Fade>  
+        </div> 
     </div>
  )
 }
